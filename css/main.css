@@ -1,0 +1,374 @@
+
+*{
+			box-sizing: border-box;
+		}
+		body{
+			margin: 0;
+			padding: 0;
+			
+			background-color: black;
+			
+		}
+		
+		.study{
+			margin-top: 12%;
+			margin-bottom: 23.3%;
+			color: white;
+			font-size: 20px;
+		}
+		.row{
+			margin: 20% 42%;
+			/*height: 100px;*/
+			/*size: 40px;*/
+		}
+		.easy i b{
+			color: white;
+		}
+		  {
+			margin-right: 25%;
+		}
+		ul li{
+			color: red;
+			
+			padding: 2% 6%;
+			font-size: 30px
+
+		}
+		ul li a b:hover{
+			color: blue;
+		}
+		ul li a{
+			text-decoration: none;
+			color: white;
+		}
+		.menu_bar ul{
+			display: flex;
+			list-style: none;
+			padding: 3% 5%;
+		}
+		.menu_bar ul {
+			float: right;
+			/*margin-left: 30%*/
+			margin-top: -5%;
+		}
+		.menu_bar ul li b{ 
+			/*color: white;*/
+			/*list-style: none;*/
+		}
+		.menu_bar1 ul li b{
+
+		}
+
+		
+
+		p{
+			text-align: center;
+		}
+		label{
+			text-align: justify;
+			padding: 4% 3%;
+			/*margin: 3% 4$;*/
+
+		}
+		input .btn{
+			width: 20%;
+			
+		}
+		input{
+			width: 70%;
+			height: 30px;
+			border-radius: 5px;
+			font-size: 18px;
+			text-align: center;
+
+		}
+		input:hover{
+			
+			width: 70%;
+			height: 30px;
+			border-radius: 5px;
+			font-size: 18px;
+			text-align: center;
+			box-shadow: 1px 1px solid;
+
+
+		}
+		h1{
+			text-align: center;
+			margin-bottom: 15%;
+		}
+		
+		.frm{
+			/*background-color: coral;*/
+			background-color: black;
+			border:2px solid white;
+
+
+		}
+
+		 .login_center{
+		 	
+		 	font-size: 20px;
+		 	margin: 10% 40%;
+		 	letter-spacing: 1px;
+		 }
+		 .center{
+		 	margin:10% 30%;
+		 	font-size: 20px;
+		 	letter-spacing: 1px;
+		 	color: white;
+		 	opacity: 0.8;
+		 }
+		 .easy{
+		 	color: white;
+		 	font-size: 60px;
+		 	letter-spacing: 2px;
+
+		 }
+		 
+		
+		.logout{
+			font-size: 40px;
+			margin-left: 90%;
+		}
+		.user{
+			font-size: 20px;
+			color: white;
+		}
+		.courses{
+			font-size: 18px;
+			color: white;
+			letter-spacing: 2px;
+			text-align: center;
+					}
+		.courses>a:hover{
+			color: white;
+			opacity: 0.8;
+			background-color: green;
+
+		}
+		.text{
+			color: black;
+			font-size: 18px;
+			text-align: justify;
+			text-align: center;
+			margin: 7% 9%;
+			opacity: 20;
+		}
+		.english{
+			color: white;
+			font-size: 50px;
+			margin: 5% 2%;
+			text-align: center;
+			opacity: 0.9;
+		}
+		.current{
+			color: white;
+			margin: 2% 15%;
+		}
+		.c{
+			color: white;
+			font-size: 40px;
+			margin: 1% 40%;
+		}
+		.heading{
+			font-size: 40px;
+			color: white;
+			margin:1% 8%;
+		}
+		
+		img{
+			 border-color: 2px solid red;
+		}
+		.footer{
+			/*border: 3px solid red;*/
+			text-align: center;
+			font-size: 30px;
+			background-color: white;
+		}
+
+ /*This Code is For Responsive*/
+ @media screen and (max-width: 900px) and (min-width: 600px)
+
+ {
+
+ 	body{
+			margin: 0;
+			padding: 0;
+			/*height: 700px;*/
+			background-image: url(../website/2.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+		/*background-color: black;*/
+			
+		}
+	.study{
+			margin-top: 12%;
+			margin-bottom: 66%;
+			color: white;
+			font-size: 20px;
+		}
+		.row{
+			/*margin: 20% 42%;*/
+			/*height: 100px;*/
+			/*size: 40px;*/
+		}
+		.easy i b{
+			color: white;
+			font-size: 28px;
+		}
+
+		ul li{
+			color: red;
+			
+			padding: 2% 6%;
+			font-size: 30px
+
+		}
+		ul li a b:hover{
+			color: yellow;
+		}
+		ul li a{
+			text-decoration: none;
+			color: white;
+			font-size: 18px;
+		}
+		.menu_bar ul{
+			display: flex;
+			list-style: none;
+			padding: 3% 5%;
+		}
+
+		.menu_bar ul {
+			float: right;
+			/*margin-left: 30%*/
+			margin-top: -5%;
+		}
+		.menu_bar ul li b{ 
+			color: white;
+			list-style: none;
+		}
+		.menu_bar1 ul li b{
+
+		}
+
+		
+
+		p{
+			text-align: center;
+		}
+		label{
+			text-align: justify;
+			/*padding: 2% 2%;*/
+			/*margin: 3% 4$;*/
+
+		}
+		input .btn{
+			/*width: 40%;*/
+		}
+		input{
+			/*width: 70%;*/
+			/*height: 30px;*/
+			/*border-radius: 5px;*/
+			/*font-size: 18px;*/
+			/*text-align: center;*/
+
+		}
+		/*input:hover{
+			
+			width: 70%;
+			height: 30px;
+			border-radius: 5px;
+			font-size: 18px;
+			text-align: center;
+			box-shadow: 1px 1px solid;
+
+
+		}*/
+		/*h1{
+			text-align: center;
+			margin-bottom: 15%;
+		}*/
+		
+		.frm{
+			/*background-color: coral;*/
+			/*background-color: black;*/
+			border:2px solid white;
+
+
+		}
+
+		 .login_center{
+		 	
+		 	font-size: 20px;
+		 	
+		 }
+		 .center{
+		 	/**/
+		 }
+		 .easy{
+		 	color: white;
+		 	font-size: 60px;
+		 	letter-spacing: 2px;
+
+		 }
+		 
+		
+		.logout{
+			font-size: 40px;
+			margin-left: 90%;
+		}
+		.user{
+			font-size: 20px;
+			color: white;
+		}
+		.courses{
+			font-size: 18px;
+			color: white;
+			letter-spacing: 2px;
+			text-align: center;
+					}
+		.courses>a:hover{
+			color: white;
+			opacity: 0.8;
+			background-color: green;
+
+		}
+		.text{
+			color: black;
+			font-size: 18px;
+			text-align: justify;
+			text-align: center;
+			margin: 7% 9%;
+			opacity: 20;
+		}
+		.english{
+			color: white;
+			font-size: 50px;
+			margin: 5% 2%;
+			text-align: center;
+			opacity: 0.9;
+		}
+		.current{
+			color: white;
+			margin: 2% 15%;
+		}
+		.c{
+			color: white;
+			font-size: 40px;
+			margin: 1% 40%;
+		}
+		.heading{
+			font-size: 40px;
+			color: white;
+			margin:1% 8%;
+		}
+		
+
+		.footer{
+			/*border: 3px solid red;*/
+			text-align: center;
+			font-size: 30px;
+			background-color: white;
+		}
+ }
